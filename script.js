@@ -22,8 +22,8 @@ async function startLoop() {
         }
 
         // --- STEP 2: Wait 10 Seconds for Modal ---
-        console.log("   ...Waiting 10 seconds for modal...");
-        await wait(10000); 
+        console.log("   ...Waiting 5 seconds for modal...");
+        await wait(5000); 
 
         // --- STEP 3: Find and Click "Submit" Button ---
         // We look for the button with class 'VwjxrB'
@@ -37,8 +37,8 @@ async function startLoop() {
         }
 
         // --- STEP 4: Wait 10 Seconds before restarting ---
-        console.log("   ...Waiting 10 seconds before next cycle...");
-        await wait(10000);
+        console.log("   ...Waiting 5 seconds before next cycle...");
+        await wait(5000);
     }
     
     console.log("--- Script Stopped ---");
